@@ -1,0 +1,18 @@
+{
+  "name": "magical-arena",
+  "version": "1.0.0",
+  "description": "Swiggy Engineering - Round 1 Test - Designing magical-arena!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node src/index.js",
+    "debug": "nodemon --inspect src/index.js"
+  },
+  "keywords": [],
+  "author": "Aritra Sen",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
